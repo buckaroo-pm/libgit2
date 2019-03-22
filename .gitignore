@@ -33,3 +33,10 @@ tags
 mkmf.log
 *.profdata
 *.profraw
+
+.buckd
+buck-out
+.buckconfig.d
+.buckconfig.local
+buckaroo
+buckaroo_macros.bzl

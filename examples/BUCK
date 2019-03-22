@@ -1,0 +1,14 @@
+cxx_binary(
+  name = 'lg2',
+  header_namespace = '',
+  headers = glob([
+    '*.h',
+  ]),
+  srcs = glob([
+    '*.c',
+    'lg2.c',
+  ]),
+  deps = [
+    '//:git2',
+  ],
+)
